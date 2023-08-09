@@ -31,4 +31,4 @@ jobs:
     - name: Building project
       run: npm run build --if-present
     - name: Running Unit Tests 
-      run: npm run test:ui
+      run: npm run test:unit
